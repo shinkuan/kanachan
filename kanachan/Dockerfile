@@ -82,7 +82,7 @@ ENV PATH "/home/ubuntu/.local/bin${PATH:+:$PATH}"
 
 # Install CMake.
 RUN set -euxo pipefail; \
-    /workspace/prerequisites/cmake/install --debug --prefix "$HOME/.local"
+    /workspace/prerequisites/cmake/install --version="3.26.4" --debug --prefix "$HOME/.local"
 
 # Install libbacktrace.
 RUN set -euxo pipefail; \
