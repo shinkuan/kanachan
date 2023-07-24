@@ -1,4 +1,4 @@
-FROM cryolite/kanachan.prerequisites
+FROM shinkuan/kanachan.prerequisites
 
 ARG CMAKE_BUILD_TYPE=Release
 
