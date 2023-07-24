@@ -1,4 +1,4 @@
-FROM cryolite/kanachan
+FROM shinkuan/kanachan
 
 WORKDIR /workspace/kanachan
 
